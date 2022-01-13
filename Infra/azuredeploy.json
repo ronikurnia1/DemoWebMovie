@@ -80,7 +80,7 @@
   },
   "variables": {
     "prefix": "WebMovie",
-    "webSiteName": "variables('prefix')]",
+    "webSiteName": "[variables('prefix')]",
     "sqlserverName": "[concat('sqlserver', tolower(variables('prefix')))]"
   },
   "resources": [
