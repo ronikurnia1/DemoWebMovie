@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32104.313
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebMovie", "DemoWebMovie\DemoWebMovie.csproj", "{BE44DE4C-AF91-4F92-BC70-E6C903D63881}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Infra", "Infra\Infra.deployproj", "{86153C6A-69F6-469A-8679-BAA436240C8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BE44DE4C-AF91-4F92-BC70-E6C903D63881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE44DE4C-AF91-4F92-BC70-E6C903D63881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE44DE4C-AF91-4F92-BC70-E6C903D63881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86153C6A-69F6-469A-8679-BAA436240C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86153C6A-69F6-469A-8679-BAA436240C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86153C6A-69F6-469A-8679-BAA436240C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86153C6A-69F6-469A-8679-BAA436240C8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
